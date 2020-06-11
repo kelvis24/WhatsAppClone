@@ -75,22 +75,26 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    protected void onPause() {
+        super.onPause();
 
+    }
+    protected void onResume() {
+        super.onResume();
 
+    }
+    protected void onRestart() {
+        super.onRestart();
 
+    }
+    protected void onKill() {
+        super.onStop();
 
+    }
 
+    protected void onDestroy() {
+        super.onDestroy();
 
-
-
-
-
-
-
-
-
-
-
-
+    }
 
 }
